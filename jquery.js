@@ -1,8 +1,5 @@
 script>
-
- 
-
-  $(function () {
+$(function () {
     console.log("Let's get ready to party with jQuery!");
 
   
@@ -35,9 +32,7 @@ script>
           "rgb(" + red + "," + green + "," + blue + ")");
     });
 
-
-
-    $("img").on('click', function (e) {
+ $("img").on('click', function (e) {
       $(e.target).remove();
     });
   });
